@@ -1,0 +1,20 @@
+*{
+    
+    color:black;
+    
+}
+body{
+    background-image: url(/photos/1.jpg);
+}
+P{
+    text-align: justify;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+nav , h2 ,h3{
+    text-align: center;
+    justify-content: space-between;
+}

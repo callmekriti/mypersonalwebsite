@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    text-transform: capitalize;
+}
+body {
+  background-image:url(./bimg3.jpg);
+  background-size: cover;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: lightgray;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.item {
+  text-align: center;
+  max-width: 500px;
+}
+
+.item img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 10px 20px;
+  text-align: center;
+}

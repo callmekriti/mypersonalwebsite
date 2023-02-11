@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="login-container">
+      <form action="home.html" >
+        <h1>Login</h1>
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button type="submit" onclick="checkCredentials()">Submit</button>
+        </a>
+      </form>
+    </div>
+    <script>
+      function checkCredentials() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username === "admin" && password === "password") {
+        } else {
+          alert("Invalid credentials. Please try again.");
+        }
+      }
+    </script>
+    <script src="login.js"></script>
+  </body>
+</html>
